@@ -5,7 +5,13 @@ Front-end Mentor Junior challenge solved By IsNeonPlay
 
 ## // ESPAÑOL // 🇪🇸 
 
+Otro reto junior de Front-end Mentor resuelto por IsNeonPlay. Usando puro css `grid` y `flex`. Sirviendo en armonia. 
 
+- Este reto casi me saca canas.
 
 
 ## // ENGLISH // 🇬🇧 
+
+Another junior Front-end Mentor challenge solved by IsNeonPlay. Using pure css `grid` and `flex`. Serving in harmony.
+
+- This challenge almost gave me gray hair.
