@@ -1,0 +1,178 @@
+@media screen and (min-width: 675px) {
+
+  /************************* FOOTER *************************/
+  .footer__social-media {
+    justify-content: space-evenly;
+  }
+
+}
+
+@media screen and (min-width: 1117px) {
+
+  /************************* GENERAL STYLES 🖌️ *************************/
+  .desc-paragraph {
+    font-size: 16px;
+  }
+  .buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 13px;
+  }
+  .btn-text {
+    font-weight: 600;
+    transition: all .3s ease-in;
+  }
+  .btn-1 {
+    padding: 13px 33px;
+    box-shadow: 0 20px 30px -10px hsla(171, 66%, 44%, 0.4)
+  }
+  .btn-2 {
+    padding: 12px 30px;
+    box-shadow: 0 20px 30px -10px hsla(233, 100%, 69%, 0.4);
+  }
+
+  /************************* HEADER *************************/
+  .header {
+    background-image: url(../images/bg-header-desktop.png);
+  }
+  .header__ctn {
+    margin: 0 auto;
+    width: 592px;
+    gap: 50px;
+  }
+  .header__logo {
+    margin-bottom: -20px;
+  }
+  .header__desc h1 {
+    font-size: 35px;
+  }
+
+  /************************* MAIN *************************/
+  .main {
+    place-items: center;
+  }
+  /********** Snippets Section **********/
+  .main__section-snippets {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: min-content 1fr;
+    gap: 55px;
+  }
+  .main__section-snippets .desc-title {
+    margin-bottom: 7px;
+  }
+   .main__desc {
+    margin: 0 auto;
+    width: 610px;
+    grid-column: span 2;
+  }
+  .image-main {
+    margin: 0 auto;
+    width: 542px;
+  }
+  .main__snippets-content {
+    margin: 50px 0;
+    width:  340px;
+    text-align: start;
+    grid-template-rows: repeat(3, min-content);
+    gap: 40px;
+  }
+  /********** Clip Section **********/
+  .main__section-clip, .main__clip-image {
+    place-items: center;
+  }
+  .clip-image {
+    margin: 0 0 0 120px;
+    width: 812px;
+  }
+  /********** Work Section **********/
+  .main__section-work {
+    width: 1117px;
+    margin-top: -130px;
+    place-items: center;
+  }
+  .main__section-work .main__desc {
+    grid-column: auto;
+  }
+  .main__work-content {
+    width: 1117px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 10px;
+  }
+  .main__work-contents {
+    margin: 0;
+    width: 350px;
+  }
+  /********** Companies Container **********/
+  .main__ctn-companies {
+    flex-direction: row;
+    align-items: center;
+    gap: 95px;
+  }
+  /********** Downloads Section **********/
+  .main__section-downloads {
+    width: 1117px;
+    grid-template-columns: 100%;
+    grid-template-rows: 1fr min-content;
+    place-items: center;
+  }
+  .main__section-downloads .main__desc {
+    grid-column: auto;
+  }
+
+  /************************* FOOTER *************************/
+  .footer {
+    padding: 40px 0;
+    overflow: hidden;
+  }
+  .footer__ctn {
+    margin: 0 auto;
+    width: 1117px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .footer__logo-c {
+    width: 70px;
+  }
+  /********** Support Container **********/
+  .footer__support {
+    grid-template-columns: repeat(4, 150px);
+    grid-template-rows: repeat(2, min-content);
+  }
+  .support {
+    transition: all .3s ease-in;
+  }
+  .support-faq {
+    grid-row: 1 / 1;
+    grid-column: 1 / 1;
+  }
+  .support-contact {
+    grid-column: 2 / 1;
+  }
+  .support-privacy {
+    grid-row: 2 / 1;
+    grid-column: 1 / 4;
+  }
+  .support-guide {
+    grid-row: 2 / 1;
+    grid-column: -1 / 2;
+  }
+  /********** Social Media Container **********/
+  .footer__social-media {
+    align-items: center;
+    gap: 20px;
+  }
+  .fa-brands {
+    transition: all .3s ease-in;
+  }
+
+}
+
+@media screen and (min-width: 1400px) {
+  .image-main {
+    margin: 0 auto;
+    width: 700px;
+  }
+}

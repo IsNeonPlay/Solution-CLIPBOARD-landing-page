@@ -1,0 +1,196 @@
+/************************* GENERAL STYLES 🖌️ *************************/
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+
+:root {
+  /***** General Colors 👇 *****/
+  --BG-Color: rgb(245, 245, 245);
+  --Titles-Color: hsl(210, 10%, 33%);
+  --Paragraph-Color: hsl(201, 11%, 66%);
+  --Footer-Color: rgb(232, 232, 232);
+  /***** Button Colors 👇 *****/
+  --Button-Color-1-and-Hover: hsl(171, 66%, 44%);
+  --Hover-Button-1: hsl(171, 66%, 60%);
+  --Button-Color-2: hsl(233, 100%, 69%);
+  --Hover-Button-2: hsl(233, 100%, 80%);
+  /***** Font Family 👇 *****/
+  --Font: 'Bai Jamjuree', sans-serif;
+  /***** Borders  👇 *****/
+  --Button-Border: 3em;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: var(--BG-Color);
+  font-family: var(--Font);
+  font-size: 18px;
+  text-align: center;
+}
+.desc-title {
+  margin-bottom: 17px;
+  color: var(--Titles-Color);
+}
+.desc-paragraph {
+  font-size: 15.95px;
+  color: var(--Paragraph-Color);
+  line-height: 25px;
+}
+.main__desc h2{
+  font-size: 29px;
+}
+.main__desc h3{
+  font-size: 29px;
+}
+.buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+.btn-text {
+  width: 313px;
+  color: var(--BG-Color);
+  text-decoration: none;
+  text-align: center;
+  border-radius: var(--Button-Border);
+}
+.btn-1 {
+  padding: 15px 78px;
+  background-color: var(--Button-Color-1-and-Hover);
+  box-shadow: 0 15px 30px -10px hsla(171, 66%, 44%, 0.3);
+}
+.btn-1:hover {
+  background-color: var(--Hover-Button-1);
+  box-shadow: 0 25px 30px -10px hsla(171, 66%, 44%, 0.35);
+}
+.btn-2 {
+  padding: 13px 75px;
+  background-color: var(--Button-Color-2);
+  box-shadow: 0 20px 30px -10px hsla(233, 100%, 69%, 0.3);
+}
+.btn-2:hover {
+  background-color: var(--Hover-Button-2);
+  box-shadow: 0 30px 30px -10px hsla(233, 100%, 69%, 0.35);
+}
+
+/************************* HEADER *************************/
+.header {
+  margin-bottom: 165px;
+  background-image: url(../images/bg-header-mobile.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.header__ctn {
+  margin: 0 33px;
+  display: grid;
+  gap: 60px;
+}
+.header__logo {
+  margin-top: 122px;
+}
+.header__desc h1 {
+  margin: 14px 0;
+  font-size: 31px;
+}
+
+/************************* MAIN *************************/
+.main {
+  margin: 0 auto;
+  display: grid;
+  gap: 180px;
+}
+/********** Snippets Section **********/
+.main__section-snippets {
+  display: grid;
+  gap: 66px;
+}
+.main__desc {
+  margin: 0 38px;
+}
+.image-main {
+  width: 342px;
+}
+.main__snippets-content {
+  margin: 0 38px;
+  display: grid;
+  gap: 40px;
+}
+/********** Clip Section **********/
+.main__section-clip {
+  display: grid;
+  gap: 60px;
+}
+/********** Work Section **********/
+.main__section-work {
+  margin-top: -60px;
+  display: grid;
+  gap: 90px;
+}
+.main__work-content {
+  display: flex;
+  flex-direction: column;
+  gap: 55px;
+}
+.main__work-contents {
+  margin: 0 30px;
+  display: grid;
+  gap: 25px;
+}
+.main__work-contents .main__content-title  {
+  margin-bottom: -30px;
+}
+/********** Companies Container **********/
+.main__ctn-companies {
+  display: flex;
+  flex-direction: column;
+  gap: 65px;
+}
+/********** Downloads Section **********/
+.main__section-downloads {
+  margin-bottom: 190px;
+  display: grid;
+  gap: 70px;
+}
+.main__section-downloads .main__desc {
+  margin: 0 35px;
+}
+
+/************************* FOOTER *************************/
+.footer {
+  padding: 50px 112px;
+  background-color: var(--Footer-Color);
+  color: var(--Titles-Color);
+  display: grid;
+  gap: 40px;
+}
+.footer__ctn {
+  display: grid;
+  gap: 45px;
+}
+.footer__logo-c {
+  width: 52px;
+}
+/********** Support Container **********/
+.footer__support {
+  display: grid;
+  gap: 25px;
+}
+.support {
+  color: var(--Titles-Color);
+  text-decoration: none;
+}
+.support:hover, .fa-brands:hover {
+  color: var(--Button-Color-1-and-Hover);
+}
+/********** Social Media Container **********/
+.footer__social-media {
+  font-size: 23px;
+  display: flex;
+  justify-content: space-between;
+}
+.fa-brands {
+  cursor: pointer;
+}
